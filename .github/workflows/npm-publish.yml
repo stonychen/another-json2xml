@@ -25,7 +25,7 @@ jobs:
       # - run: npm install
       # - run: npm run build --if-present
       - name: unpublish
-        run: npm unpublish --force --access public
+        run: npm unpublish --force
         working-directory: ./
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
