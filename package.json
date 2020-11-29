@@ -1,0 +1,41 @@
+{
+  "name": "another-json2xml",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "keywords": [
+    "soap",
+    "json to xml",
+    "json 2 xml",
+    "json2xml",
+    "another-json2xml"
+  ],
+  "scripts": {
+    "dev": "tsc && node dist/index.js",
+    "build": "tsc -b",
+    "lint": "eslint src/**"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/node": "^14.14.10",
+    "babel-eslint": "^10.1.0",
+    "core-js": "^3.8.0",
+    "eslint": "^7.14.0",
+    "typescript": "^3.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stonychen/another-json2xml.git"
+  },
+  "author": "Stony Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stonychen/another-json2xml/issues"
+  },
+  "homepage": "https://github.com/stonychen/another-json2xml#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
